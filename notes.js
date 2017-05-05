@@ -12,6 +12,10 @@ var getNote = (title) => {
 	console.log('Getting note', title);
 };
 
+var remove = (title) => {
+	console.log()
+}
+
 module.exports = {
 	addNote,
 	getAll,
