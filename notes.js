@@ -13,11 +13,12 @@ var getNote = (title) => {
 };
 
 var remove = (title) => {
-	console.log()
+	console.log('Removing note', title);
 }
 
 module.exports = {
 	addNote,
 	getAll,
-	getNote
+	getNote,
+	remove
 };
