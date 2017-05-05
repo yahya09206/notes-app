@@ -10,3 +10,12 @@ const notes = require('./notes.js');
 var command = process.argv[2];
 //Argv=arguments array
 console.log('Command:', command);
+
+//condition to add new note
+if(command === 'add'){
+	console.log('Adding new note!');
+}else if(command === 'list'){
+	console.log('Listing all notes');
+}else{
+	console.log('Command not recognized');
+}
