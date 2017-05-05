@@ -1,9 +1,9 @@
 console.log("starting notes.js");
 
-var addNotes = () => {
-
+var addNotes = (title, body) => {
+	console.log('Adding note', title, body);
 };
 
 module.exports = {
-	addNote: addNote
-}
+	addNote
+};
