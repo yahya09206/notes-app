@@ -1,2 +1,2 @@
 # notes-app
-a note taking app.
+a command line note taking app.

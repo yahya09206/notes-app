@@ -10,6 +10,7 @@ const notes = require('./notes.js');
 var command = process.argv[2];
 //Argv=arguments array
 console.log('Command:', command);
+console.log(process.argv);
 
 //condition to add new note
 if(command === 'add'){
