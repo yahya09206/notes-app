@@ -3,6 +3,7 @@ console.log("Starting app.js");
 //Third party packages
 const fs = require('fs');
 const _ = require('lodash');
+const yargs = require('yargs');
 
 //Local packages
 const notes = require('./notes.js');
