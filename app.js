@@ -17,7 +17,6 @@ console.log('Yargs', argv);
 
 //condition to add new note
 if(command === 'add'){
-	console.log('Adding new note!');
 	notes.addNote(argv.title, argv.body);
 }else if(command === 'list'){
 	console.log('Listing all notes');
